@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+border-radius: 5px;
+background: linear-gradient(#000000,white);
+height: 150px;
+}
+
+
+
+
+.navbar{
+background:#070707;
+border: none;
+width: 100%;
+border-bottom: 2px solid white;
+}
+
+
+#storyel{
+margin-left: 10px;
+/* font-size: 3vw; */
+margin-top: 10px;
+font-family: 'Nova Script';
+letter-spacing: 4px;
+font-weight: 600;
+/* font-size: 25px; */
+border-left: rgb(255, 255, 255) 3px solid ;
+padding: 12px;
+}
+
+
+
+#bouton{
+background-color: rgb(255, 255, 255);
+font-size: 12px;
+height: 35px;
+}
+
+
+#navbari{
+color: white;
+font-family: 'Nova Script';
+}
+
+#navbari:hover{
+color: red;
+}
+/* 
+h1{
+top: 50%;
+} */
+
+
+/* ============================ */
+
+
+
+
+
+
+
+
+
+.inonesore{
+ /* writing-mode: vertical-lr; */
+justify-content: center  ;
+transform: rotate(180deg);
+}
+
+
+h2 {
+  margin: 10px;
+   writing-mode: vertical-lr;
+  /* text-align: center; */
+}
+
+.ready {
+   transform: rotate(180deg);
+   font-size:90px;
+   font-family: "didot";
+   
+}
+
+
+
+
+
+.readtoshop {
+  display: grid;
+  height: 60vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: max-content max-content;
+  margin-top: 40px;
+margin-bottom: 40px;
+
+}
+.ship{
+  margin-top: 40px;
+  font-size:60px;
+  font-family: "didot";
+  margin-bottom: 30px;
+
+}
+
+/* ============================================== */
+
+#paragraphe{
+line-height: 94px;
+font-size:90px ;
+font-family: 'Playfair Display', serif;
+margin-top: 50px;
+margin-bottom: 60px;
+}
+
+
+.text {
+  /* transform: translate(50%,-50%); */
+  /* text-transform: capitalize; */
+  font-family: 'Times';
+  font-size: 2em;
+  font-weight: 700;
+  /* color: #f5f5f5; */
+  /* text-shadow: 
+      1px 1px 1px #919191,
+      1px 2px 1px #919191,
+      1px 3px 1px #919191,
+      1px 4px 1px #919191,
+      1px 5px 1px #919191,
+      1px 6px 1px #919191,
+      1px 7px 1px #919191,
+      1px 8px 1px #919191,
+      1px 9px 1px #919191,
+      1px 10px 1px #919191,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4); */
+}
+
+/* ============================================================= */
+
+
+section{
+  height: 120vh;
+  border-top: 5px solid #262626;
+  /* background: cover; */
+  object-fit: cover;
+}
+
+.sec1{
+  background-image: url("./our\ prodcuts/wa9fa.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec2{
+  background-image: url("./our\ prodcuts/wa9fa2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.sec3{
+  background-image: url("./our\ prodcuts/wa9fa3.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.sec4{
+  background-image: url("./our\ prodcuts/wa9fa4.jpg");
+  background-attachment: fixed; 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec5{
+  background-image: url("./our\ prodcuts/watch.png");
+  background-attachment: fixed; 
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 200px;
+}
+
+
+.all{
+  /* font-family: 'Times'; */
+  font-family:cambria;
+  font-size: 2.5rem;
+/* text-decoration:overline; */
+line-height: 25px;
+text-transform: uppercase;
+}
+
+.limited{
+  font-size: 70px;
+  /* text-decoration: overline; */
+  line-height: 35px;
+  /* border-left: rgb(0, 0, 0) 7px solid ; */
+
+}
+
+
+
+
+/* ============= shop now ====================================== */
+
+.cta {
+  border: none;
+  background: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 17px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* =================================================== */
+.xyz{
+margin-bottom: 180px;}
+
+
+.shooop{
+text-decoration: line-through;
+}
+
+
+
+/* partie css for Product.php page */
+
+
+
+
+
+
+/* partie css for Product.php page */

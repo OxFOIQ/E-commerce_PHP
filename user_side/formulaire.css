@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(#000000,white);
+    height: 150px;
+}
+
+/* touskiéé navbar */
+
+.navbar{
+    background:#070707;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+    
+
+#storyel{
+    margin-left: 10px;
+    /* font-size: 3vw; */
+    margin-top: 10px;
+    font-family: 'Nova Script';
+    letter-spacing: 4px;
+    font-weight: 600;
+    /* font-size: 25px; */
+    border-left: rgb(255, 255, 255) 3px solid ;
+    padding: 12px;
+}
+        
+
+#navbari{
+    color: white;
+    font-family: 'Nova Script';
+}
+    
+#navbari:hover{
+    color: red;
+}        
+
+#bouton{
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    height: 35px;
+}
+
+/* touskiéé navbar */
+
+
+footer{
+   /* border: solid black 3px ;
+   border-radius: 50px 50px 0px 0px;
+   border-left: none; */
+   border-right: none;
+    /* margin-top: 20px; */
+    /* box-shadow:2px 2px 2px 2px  black; */
+    margin-top: 60px
+}
+
+/* .footy{
+   margin-top: 50px;
+} */
+
+.mytab{
+   border: none;
+}
